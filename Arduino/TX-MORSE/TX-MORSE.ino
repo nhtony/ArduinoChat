@@ -10,7 +10,7 @@ char recieveData;
 char transmitData;
 String message = "";
 boolean isConnected = false;
-const int buzzerPin = 4;
+const int buzzerPin = 6;
 const int ledPin = 3;
 
 void setup() {

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArduinoChatForm.exe" version="1.0.0.60" publicKeyToken="632f6ab72dee24ec" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArduinoChatForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArduinoChatForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArduinoChatForm.exe" size="42424">
+      <assemblyIdentity name="ArduinoChatForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QlTZKYtGfAyjbZse7LLWCkDrTlUSPz+xqIehBDupn1M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArduinoChatForm.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HONHATHAO\DELL" issuerKeyHash="33958bc979fc135a7e7517661dab60a4af78aa2d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Om7xP/7ZLve+3zMaisVWkzMEc4u7AGceBpoB/EItmiM=</DigestValue></Reference></SignedInfo><SignatureValue>Qn3v8tSfi26tu6CWYF395xMdWE9AvJJ/nPMiVQ+/c1Bz5g/etHIJManvbYZDkuCan0J98J+QVjbOfqVHSw8Nli0wrfShfWIhT5HwOjlFh5IjwxUDvdqvWzndgTjxnDIxsma1J/rmO9ZT+XCYSmlKt8dK2+j9Vubm30LwGI/73/M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0A7KeKwbeP152H5VyJMRQ6RoiTr0cOILsgIsBpCMypZhd6C1sHOnaai3itohRzi+HtoWO32s4Dx7X0T7xdzzuSc/rjxvobWR6eF8xzNxY+TpJrJgMnb8kpBDjNRSbKOLwkNAT9uH8L9fzjGk87E/AA8EA9ufBKncr18gjbFSWSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="239a2d42fc019a061e6700bb8b7304339356c58a1a33dfbef72ed9fe3ff16e3a" Description="" Url=""><as:assemblyIdentity name="ArduinoChatForm.exe" version="1.0.0.60" publicKeyToken="632f6ab72dee24ec" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HONHATHAO\DELL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dEO3LStM4MFBuASPihiTt4wZn9PxwiSb1lWoq7ZwU+k=</DigestValue></Reference></SignedInfo><SignatureValue>L+O+xeFeYluwpIxrYvqbdvRufp1e5enwxWGcg8DjZKeZjSwkclnwIbwVjI2ZO59nxGdbNhPnQITQ5E3HPkFoWBkVfa6X6b/3qGopcQHQmMdPXGI+OGaNI+NWw0EoRzYTm4/g4LPNoQy3MKm/4hQY8U/D847mV3EV7RLLc24t3aI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0A7KeKwbeP152H5VyJMRQ6RoiTr0cOILsgIsBpCMypZhd6C1sHOnaai3itohRzi+HtoWO32s4Dx7X0T7xdzzuSc/rjxvobWR6eF8xzNxY+TpJrJgMnb8kpBDjNRSbKOLwkNAT9uH8L9fzjGk87E/AA8EA9ufBKncr18gjbFSWSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQQLe0e/tXVrdPcRqcw2WQ7TANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwASABPAE4ASABBAFQASABBAE8AXABEAEUATABMMB4XDTE5MTAwNDE2MjMwN1oXDTIwMTAwMzIyMjMwN1owJzElMCMGA1UEAx4cAEgATwBOAEgAQQBUAEgAQQBPAFwARABFAEwATDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0A7KeKwbeP152H5VyJMRQ6RoiTr0cOILsgIsBpCMypZhd6C1sHOnaai3itohRzi+HtoWO32s4Dx7X0T7xdzzuSc/rjxvobWR6eF8xzNxY+TpJrJgMnb8kpBDjNRSbKOLwkNAT9uH8L9fzjGk87E/AA8EA9ufBKncr18gjbFSWSkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC/tWclXX4qEZv/oBCKktrMBGInmdMgmt4FMnwj+AR4HNAHH/8ul+U9LpbSqXG7PwFfMnP7KrxVeDl3YzIERmF1usEfkIzr1g5Aji37aKnWTGbS8BtDylD4l7prWrxnt4Q5gV+/JFqLaqOEJWSGTBw5MlVHoc1DJC/kvqXzCD4l+A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
